@@ -102,6 +102,9 @@
     <Compile Include="ThanhToan.Designer.cs">
       <DependentUpon>ThanhToan.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="khachhang.resx">
+      <DependentUpon>khachhang.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="nhanhvien.resx">
       <DependentUpon>nhanhvien.cs</DependentUpon>
     </EmbeddedResource>

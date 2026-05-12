@@ -101,6 +101,7 @@
             this.txtMaKH.Name = "txtMaKH";
             this.txtMaKH.Size = new System.Drawing.Size(155, 22);
             this.txtMaKH.TabIndex = 6;
+            this.txtMaKH.TextChanged += new System.EventHandler(this.txtMaKH_TextChanged);
             // 
             // txtHoTen
             // 
