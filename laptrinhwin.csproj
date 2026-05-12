@@ -58,6 +58,12 @@
     <Compile Include="FormLogin.Designer.cs">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
     <Compile Include="HoaDon.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +108,12 @@
     <Compile Include="ThanhToan.Designer.cs">
       <DependentUpon>ThanhToan.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="nhanhvien.resx">
       <DependentUpon>nhanhvien.cs</DependentUpon>
     </EmbeddedResource>
