@@ -52,7 +52,7 @@
             // 
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitle.Location = new System.Drawing.Point(160, 15);
+            this.lblTitle.Location = new System.Drawing.Point(142, 19);
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(185, 36);
             this.lblTitle.TabIndex = 1;
@@ -97,7 +97,7 @@
             // 
             // txtMaKH
             // 
-            this.txtMaKH.Location = new System.Drawing.Point(179, 78);
+            this.txtMaKH.Location = new System.Drawing.Point(148, 78);
             this.txtMaKH.Name = "txtMaKH";
             this.txtMaKH.Size = new System.Drawing.Size(155, 22);
             this.txtMaKH.TabIndex = 6;
@@ -105,30 +105,30 @@
             // 
             // txtHoTen
             // 
-            this.txtHoTen.Location = new System.Drawing.Point(179, 124);
+            this.txtHoTen.Location = new System.Drawing.Point(148, 124);
             this.txtHoTen.Name = "txtHoTen";
             this.txtHoTen.Size = new System.Drawing.Size(155, 22);
             this.txtHoTen.TabIndex = 7;
             // 
             // txtSDT
             // 
-            this.txtSDT.Location = new System.Drawing.Point(179, 179);
+            this.txtSDT.Location = new System.Drawing.Point(148, 179);
             this.txtSDT.Name = "txtSDT";
             this.txtSDT.Size = new System.Drawing.Size(155, 22);
             this.txtSDT.TabIndex = 8;
             // 
             // txtDiaChi
             // 
-            this.txtDiaChi.Location = new System.Drawing.Point(179, 231);
+            this.txtDiaChi.Location = new System.Drawing.Point(148, 231);
             this.txtDiaChi.Name = "txtDiaChi";
             this.txtDiaChi.Size = new System.Drawing.Size(155, 22);
             this.txtDiaChi.TabIndex = 9;
             // 
             // btnXoa
             // 
-            this.btnXoa.Location = new System.Drawing.Point(52, 289);
+            this.btnXoa.Location = new System.Drawing.Point(34, 289);
             this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(75, 57);
+            this.btnXoa.Size = new System.Drawing.Size(77, 57);
             this.btnXoa.TabIndex = 10;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = true;
@@ -136,9 +136,9 @@
             // 
             // btnThem
             // 
-            this.btnThem.Location = new System.Drawing.Point(219, 289);
+            this.btnThem.Location = new System.Drawing.Point(201, 289);
             this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(75, 57);
+            this.btnThem.Size = new System.Drawing.Size(77, 57);
             this.btnThem.TabIndex = 11;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = true;
@@ -146,9 +146,9 @@
             // 
             // btnSua
             // 
-            this.btnSua.Location = new System.Drawing.Point(52, 372);
+            this.btnSua.Location = new System.Drawing.Point(34, 372);
             this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(75, 57);
+            this.btnSua.Size = new System.Drawing.Size(77, 57);
             this.btnSua.TabIndex = 12;
             this.btnSua.Text = "Sửa";
             this.btnSua.UseVisualStyleBackColor = true;
@@ -156,9 +156,9 @@
             // 
             // btnNhapLai
             // 
-            this.btnNhapLai.Location = new System.Drawing.Point(219, 372);
+            this.btnNhapLai.Location = new System.Drawing.Point(201, 372);
             this.btnNhapLai.Name = "btnNhapLai";
-            this.btnNhapLai.Size = new System.Drawing.Size(75, 57);
+            this.btnNhapLai.Size = new System.Drawing.Size(77, 57);
             this.btnNhapLai.TabIndex = 13;
             this.btnNhapLai.Text = "Nhập lại";
             this.btnNhapLai.UseVisualStyleBackColor = true;
@@ -167,7 +167,7 @@
             // lblTimKiem
             // 
             this.lblTimKiem.AutoSize = true;
-            this.lblTimKiem.Location = new System.Drawing.Point(447, 31);
+            this.lblTimKiem.Location = new System.Drawing.Point(433, 39);
             this.lblTimKiem.Name = "lblTimKiem";
             this.lblTimKiem.Size = new System.Drawing.Size(62, 16);
             this.lblTimKiem.TabIndex = 14;
@@ -175,7 +175,7 @@
             // 
             // txtTimKiem
             // 
-            this.txtTimKiem.Location = new System.Drawing.Point(573, 28);
+            this.txtTimKiem.Location = new System.Drawing.Point(559, 36);
             this.txtTimKiem.Name = "txtTimKiem";
             this.txtTimKiem.Size = new System.Drawing.Size(182, 22);
             this.txtTimKiem.TabIndex = 15;
@@ -183,12 +183,13 @@
             // 
             // dgvKhachHang
             // 
+            this.dgvKhachHang.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvKhachHang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvKhachHang.Location = new System.Drawing.Point(363, 78);
+            this.dgvKhachHang.Location = new System.Drawing.Point(329, 78);
             this.dgvKhachHang.Name = "dgvKhachHang";
             this.dgvKhachHang.RowHeadersWidth = 51;
             this.dgvKhachHang.RowTemplate.Height = 24;
-            this.dgvKhachHang.Size = new System.Drawing.Size(435, 375);
+            this.dgvKhachHang.Size = new System.Drawing.Size(469, 375);
             this.dgvKhachHang.TabIndex = 16;
             this.dgvKhachHang.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvKhachHang_CellContentClick);
             // 
