@@ -53,6 +53,7 @@
             this.txtprice = new System.Windows.Forms.TextBox();
             this.txttime = new System.Windows.Forms.TextBox();
             this.btnxoa = new System.Windows.Forms.Button();
+            this.btnclose = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -269,11 +270,22 @@
             this.btnxoa.Text = "Xóa";
             this.btnxoa.UseVisualStyleBackColor = true;
             // 
+            // btnclose
+            // 
+            this.btnclose.Location = new System.Drawing.Point(169, 462);
+            this.btnclose.Name = "btnclose";
+            this.btnclose.Size = new System.Drawing.Size(75, 23);
+            this.btnclose.TabIndex = 19;
+            this.btnclose.Text = "close";
+            this.btnclose.UseVisualStyleBackColor = true;
+            this.btnclose.Click += new System.EventHandler(this.btnclose_Click);
+            // 
             // ThanhToan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1146, 521);
+            this.Controls.Add(this.btnclose);
             this.Controls.Add(this.btnxoa);
             this.Controls.Add(this.txttime);
             this.Controls.Add(this.txtprice);
@@ -328,5 +340,6 @@
         private System.Windows.Forms.TextBox txtprice;
         private System.Windows.Forms.TextBox txttime;
         private System.Windows.Forms.Button btnxoa;
+        private System.Windows.Forms.Button btnclose;
     }
 }

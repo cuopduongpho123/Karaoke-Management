@@ -62,5 +62,10 @@ namespace laptrinhwin
             txttime.Text = "";
 
         }
+
+        private void btnclose_Click(object sender, EventArgs e)
+        {
+            Close(); 
+        }
     }
 }
