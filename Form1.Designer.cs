@@ -28,13 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
+//<<<<<<< HEAD
             this.SuspendLayout();
             // 
+//=======
+            this.btntiep = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // btntiep
+            // 
+            this.btntiep.Location = new System.Drawing.Point(246, 176);
+            this.btntiep.Name = "btntiep";
+            this.btntiep.Size = new System.Drawing.Size(75, 23);
+            this.btntiep.TabIndex = 0;
+            this.btntiep.Text = "Tieeps";
+            this.btntiep.UseVisualStyleBackColor = true;
+            this.btntiep.Click += new System.EventHandler(this.button1_Click);
+            // 
+//>>>>>>> ab7850fe5df507b7a2a57d21598dc4b4f463cec3
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+//<<<<<<< HEAD
+//=======
+            this.Controls.Add(this.btntiep);
+//>>>>>>> ab7850fe5df507b7a2a57d21598dc4b4f463cec3
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -42,6 +62,8 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btntiep;
     }
 }
 
