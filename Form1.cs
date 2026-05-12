@@ -21,7 +21,7 @@ namespace laptrinhwin
 
         private void button1_Click(object sender, EventArgs e)
         {
-            nhanvien nvv = new nhanvien();
+            nhanhvien nvv = new nhanhvien();
             nvv.Show(); 
          }
     }

@@ -10,16 +10,20 @@ using System.Windows.Forms;
 
 namespace laptrinhwin
 {
-    public partial class nhanvien : Form
+    // 1. Đổi tên class từ nhanvien -> nhanhvien
+    public partial class nhanhvien : Form
     {
         DataTable dtNhanVien = new DataTable();
 
-        public nhanvien()
+        // 2. Đổi tên Constructor cho khớp với tên Class
+        public nhanhvien()
         {
             InitializeComponent();
         }
 
-        private void nhanvien_Load(object sender, EventArgs e)
+        // 3. Đổi tên sự kiện Load (Lưu ý: Bạn cần kiểm tra trong Properties của Form 
+        // xem mục Events -> Load đã chọn đúng tên hàm này chưa)
+        private void nhanhvien_Load(object sender, EventArgs e)
         {
             cboChucVu.Items.Add("Quản lý");
             cboChucVu.Items.Add("Nhân viên");
@@ -131,17 +135,13 @@ namespace laptrinhwin
             }
         }
 
-        private void lblTitle_Click(object sender, EventArgs e)
-        {
+        private void lblTitle_Click(object sender, EventArgs e) { }
 
-        }
+        private void lblChucVu_Click(object sender, EventArgs e) { }
 
-        private void lblChucVu_Click(object sender, EventArgs e)
-        {
+        private void label4_Click(object sender, EventArgs e) { }
 
-        }
-
-        private void label4_Click(object sender, EventArgs e)
+        private void dgvNhanVien_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
