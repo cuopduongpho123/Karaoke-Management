@@ -269,6 +269,7 @@
             this.btnxoa.TabIndex = 18;
             this.btnxoa.Text = "Xóa";
             this.btnxoa.UseVisualStyleBackColor = true;
+            this.btnxoa.Click += new System.EventHandler(this.btnxoa_Click);
             // 
             // btnclose
             // 

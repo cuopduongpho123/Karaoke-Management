@@ -19,7 +19,7 @@ namespace laptrinhwin
 //<<<<<<< HEAD
             Application.Run(new ThanhToan());
 //=======
-            Application.Run(new nhanhvien());
+            
 //>>>>>>> ab7850fe5df507b7a2a57d21598dc4b4f463cec3
         }
     }

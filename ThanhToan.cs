@@ -20,7 +20,10 @@ namespace laptrinhwin
 
         private void button2_Click(object sender, EventArgs e)
         {
-            dataGridView1.Rows.Add(txtmahoadon.Text, txtmaphong.Text , txtmakhachhang.Text ,  txttenphong.Text , txtprice.Text , txttime.Text);
+            double price = double.Parse(txtprice.Text);
+            double time = double.Parse(txttime.Text);
+            double sum = price * time; 
+            dataGridView1.Rows.Add(txtmahoadon.Text, txtmaphong.Text , txtmakhachhang.Text ,  txttenphong.Text , sum.ToString() , txttime.Text);
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -66,6 +69,26 @@ namespace laptrinhwin
         private void btnclose_Click(object sender, EventArgs e)
         {
             Close(); 
+        }
+
+        private void btnxoa_Click(object sender, EventArgs e)
+        {
+            if (dataGridView1.CurrentRow != null)
+            {
+                // Hiển thị hộp thoại xác nhận trước khi xóa (tùy chọn nhưng nên có)
+                DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn xóa dòng này không?",
+                    "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+                if (result == DialogResult.Yes)
+                {
+                    // Xóa dòng đang được chọn
+                    dataGridView1.Rows.RemoveAt(dataGridView1.CurrentRow.Index);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Vui lòng chọn một dòng để xóa!");
+            }
         }
     }
 }
